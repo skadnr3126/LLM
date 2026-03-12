@@ -1,0 +1,24 @@
+# Virtual environments
+#venv/
+#.venv/
+#env/
+#ENV/
+
+# Python cache / bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Tool caches (optional but common)
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Environment variable files
+*.env
+.env
+.env.*
+!.env.example
+
+#gemini config
+GEMINI.md
